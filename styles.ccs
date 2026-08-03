@@ -1,83 +1,100 @@
-/* ===========================
+/* ===================================
    RAÍZ Y SAZÓN
-   Estilos principales
-=========================== */
+   VERSIÓN 2.0
+=================================== */
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
-    background:#F8F4EC;
-    color:#4A4035;
-    line-height:1.6;
-}
 
-/* HERO */
+background:#F8F4EC;
+
+color:#3D3226;
+
+}
 
 .hero{
-    background:linear-gradient(rgba(248,244,236,.92),rgba(248,244,236,.92)),
-    url("https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=1400&q=80");
-    background-size:cover;
-    background-position:center;
-    min-height:90vh;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+min-height:70vh;
 
-    padding:40px 20px;
-}
+display:flex;
 
-.overlay{
-    max-width:700px;
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:60px 20px;
+
+background:linear-gradient(#f8f4ec,#efe3cf);
+
 }
 
 .logo{
-    width:140px;
-    margin-bottom:25px;
+
+width:220px;
+
+margin-bottom:25px;
+
 }
 
 .hero h1{
-    font-size:58px;
-    color:#6D5336;
+
+font-size:62px;
+
+font-weight:700;
+
+margin-bottom:15px;
+
+color:#4D3B2B;
+
 }
 
 .subtitulo{
-    margin-top:10px;
-    letter-spacing:3px;
-    color:#8A7357;
+
+letter-spacing:4px;
+
+font-size:18px;
+
+color:#8B6B4A;
+
+margin-bottom:20px;
+
 }
 
 .frase{
-    margin-top:25px;
-    font-size:22px;
-    font-style:italic;
-}
 
-/* BOTÓN */
+font-size:24px;
+
+font-style:italic;
+
+margin-bottom:35px;
+
+}
 
 .boton{
 
 display:inline-block;
 
-margin-top:35px;
+padding:18px 45px;
 
-padding:16px 34px;
-
-background:#7C5B3B;
+background:#7A5636;
 
 color:white;
 
 text-decoration:none;
 
-border-radius:40px;
+border-radius:50px;
 
-transition:.3s;
+font-size:18px;
+
+transition:.35s;
 
 }
 
@@ -89,145 +106,68 @@ transform:translateY(-3px);
 
 }
 
-/* SECCIONES */
+.buscador{
+
+width:90%;
+
+max-width:700px;
+
+margin:auto;
+
+margin-top:-35px;
+
+position:relative;
+
+z-index:10;
+
+}
+
+#buscar{
+
+width:100%;
+
+padding:18px;
+
+border:none;
+
+border-radius:50px;
+
+font-size:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+outline:none;
+
+}
 
 section{
 
-padding:70px 8%;
+padding:60px 8%;
 
 }
 
 section h2{
 
-font-size:38px;
-
-margin-bottom:20px;
-
 text-align:center;
 
-color:#6D5336;
+font-size:38px;
+
+margin-bottom:40px;
+
+color:#5A432D;
 
 }
-
-/* CATEGORÍAS */
-
-.categorias{
-
-display:flex;
-
-flex-wrap:wrap;
-
-justify-content:center;
-
-gap:15px;
-
-margin:40px 0;
-
-}
-
-.categorias button{
-
-background:white;
-
-border:none;
-
-padding:14px 22px;
-
-border-radius:40px;
-
-font-size:16px;
-
-cursor:pointer;
-
-box-shadow:0 5px 15px rgba(0,0,0,.08);
-
-transition:.3s;
-
-}
-
-.categorias button:hover{
-
-background:#7C5B3B;
-
-color:white;
-
-}
-
-/* PRODUCTOS */
 
 #productos{
 
 display:grid;
 
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
 
-gap:25px;
-
-}
-
-/* WHATSAPP */
-
-.pedido{
-
-background:#EFE4D0;
-
-text-align:center;
+gap:30px;
 
 }
 
-.whatsapp{
-
-display:inline-block;
-
-margin-top:25px;
-
-padding:16px 35px;
-
-background:#25D366;
-
-color:white;
-
-text-decoration:none;
-
-border-radius:40px;
-
-font-weight:bold;
-
-}
-
-/* FOOTER */
-
-footer{
-
-background:#E5D7BF;
-
-padding:35px;
-
-text-align:center;
-
-color:#6D5336;
-
-}
-
-/* CELULAR */
-
-@media(max-width:700px){
-
-.hero h1{
-
-font-size:42px;
-
-}
-
-.logo{
-
-width:100px;
-
-}
-
-section h2{
-
-font-size:30px;
 .card{
 
 background:white;
@@ -236,9 +176,7 @@ border-radius:18px;
 
 overflow:hidden;
 
-box-shadow:0 10px 25px rgba(0,0,0,.08);
-
-padding:18px;
+box-shadow:0 8px 25px rgba(0,0,0,.08);
 
 transition:.3s;
 
@@ -258,21 +196,19 @@ height:220px;
 
 object-fit:cover;
 
-border-radius:12px;
-
 }
 
 .card h3{
 
-margin-top:15px;
+padding:15px;
 
-color:#6D5336;
+font-size:22px;
 
 }
 
 .card p{
 
-margin:10px 0;
+padding:0 15px;
 
 color:#777;
 
@@ -280,25 +216,78 @@ color:#777;
 
 .card button{
 
-width:100%;
+margin:15px;
 
-padding:12px;
+width:calc(100% - 30px);
 
-background:#7C5B3B;
+padding:14px;
 
 border:none;
 
-border-radius:30px;
+border-radius:40px;
+
+background:#7A5636;
 
 color:white;
 
+font-size:16px;
+
 cursor:pointer;
 
-margin-top:10px;
+}
 
-font-size:15px;
+.contacto{
+
+text-align:center;
+
+background:#EFE3CF;
 
 }
+
+.contacto a{
+
+display:inline-block;
+
+margin-top:25px;
+
+background:#25D366;
+
+color:white;
+
+padding:16px 35px;
+
+text-decoration:none;
+
+border-radius:40px;
+
+font-weight:bold;
+
+}
+
+footer{
+
+background:#E6D5BB;
+
+padding:30px;
+
+text-align:center;
+
+color:#5A432D;
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.logo{
+
+width:160px;
+
 }
 
 }
