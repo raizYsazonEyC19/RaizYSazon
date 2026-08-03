@@ -85,9 +85,11 @@ botonesCategoria.forEach(boton => {
 
     boton.addEventListener("click", function () {
 
-        const categoria = this.dataset.categoria;
+       const categoria = this.dataset.categoria;
 
-        if (categoria === "Todos") {
+console.log(categoria);
+
+if (categoria === "Todos") {
             mostrarProductos(productos);
             return;
         }
