@@ -7,6 +7,8 @@ const contenedor = document.getElementById("productos");
 const buscador = document.getElementById("buscar");
 const btnWhatsapp = document.getElementById("btnWhatsapp");
 
+const botonesCategoria = document.querySelectorAll(".categoria");
+
 // Número de WhatsApp
 const telefono = "12819009344";
 
