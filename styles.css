@@ -112,11 +112,18 @@ section h2{
 }
 
 .card{
+
     background:white;
-    border-radius:18px;
+
+    border-radius:22px;
+
     overflow:hidden;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-    transition:.3s;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    border:1px solid #E9DCC7;
 }
 
 .card:hover{
