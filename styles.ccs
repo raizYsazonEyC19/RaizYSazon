@@ -1,6 +1,7 @@
-/* ===========================
-   RAÍZ Y SAZÓN v3.0
-=========================== */
+/* ============================
+   RAÍZ Y SAZÓN
+   Estilo Base v1.0
+============================ */
 
 *{
     margin:0;
@@ -10,324 +11,189 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#F8F4EC;
-    color:#4A3A2A;
+    background:#F8F3EA;
+    color:#5A4634;
+    line-height:1.6;
 }
 
-/* HERO */
+/* ---------- PORTADA ---------- */
 
 .hero{
-
-    background:linear-gradient(180deg,#F7F2E8,#EFE3CF);
-
+    background:linear-gradient(180deg,#F8F3EA,#EEE1CF);
     min-height:70vh;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
-
-    padding:80px 20px;
-
+    padding:70px 20px;
 }
 
 .hero-contenido{
-
-    max-width:800px;
-
+    max-width:700px;
 }
 
 .logo{
-
-    font-size:90px;
-
+    font-size:80px;
     margin-bottom:20px;
-
 }
 
 .hero h1{
-
-    font-size:64px;
-
-    color:#503D2C;
-
+    font-size:58px;
+    color:#5A4634;
+    margin-bottom:10px;
 }
 
 .subtitulo{
-
-    margin-top:15px;
-
-    letter-spacing:3px;
-
     color:#8B7355;
-
-    font-weight:bold;
-
+    letter-spacing:3px;
+    margin-bottom:20px;
 }
 
 .frase{
-
-    margin-top:25px;
-
-    font-size:24px;
-
+    font-size:22px;
     font-style:italic;
-
+    color:#6B5642;
 }
 
+/* ---------- BOTÓN ---------- */
+
 .boton{
-
     display:inline-block;
-
-    margin-top:40px;
-
-    background:#755235;
-
+    margin-top:35px;
+    padding:15px 35px;
+    background:#7A5A3A;
     color:white;
-
-    padding:18px 45px;
-
     text-decoration:none;
-
-    border-radius:50px;
-
+    border-radius:40px;
     transition:.3s;
-
 }
 
 .boton:hover{
-
-    background:#5A3E28;
-
+    background:#5E432A;
 }
 
-/* BUSCADOR */
+/* ---------- BUSCADOR ---------- */
 
 .busqueda{
-
     width:90%;
-
     max-width:700px;
-
     margin:auto;
-
     margin-top:-30px;
-
 }
 
 #buscar{
-
     width:100%;
-
     padding:18px;
-
     border:none;
-
     border-radius:50px;
-
-    font-size:18px;
-
-    box-shadow:0 8px 20px rgba(0,0,0,.10);
-
+    font-size:17px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
     outline:none;
-
 }
 
-/* TÍTULOS */
+/* ---------- SECCIONES ---------- */
 
 section{
-
-    padding:70px 8%;
-
+    padding:60px 8%;
 }
 
 section h2{
-
     text-align:center;
-
     margin-bottom:35px;
-
-    color:#5E4731;
-
-    font-size:42px;
-
+    color:#5A4634;
 }
 
-/* PRODUCTOS */
+/* ---------- PRODUCTOS ---------- */
 
 #productos{
-
     display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-
-    gap:30px;
-
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
 }
 
-/* TARJETAS */
-
 .card{
-
     background:white;
-
-    border-radius:20px;
-
+    border-radius:18px;
     overflow:hidden;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
     transition:.3s;
-
 }
 
 .card:hover{
-
-    transform:translateY(-8px);
-
+    transform:translateY(-6px);
 }
 
 .card img{
-
     width:100%;
-
     height:220px;
-
     object-fit:cover;
-
 }
 
 .card h3{
-
     padding:15px;
-
-    color:#4A3A2A;
-
+    color:#5A4634;
 }
 
 .card p{
-
-    padding:0 15px;
-
+    padding:0 15px 15px;
     color:#777;
-
-}
-
-.card strong{
-
-    display:block;
-
-    padding:15px;
-
-    color:#755235;
-
 }
 
 .card button{
-
-    width:calc(100% - 30px);
-
     margin:15px;
-
-    padding:14px;
-
+    width:calc(100% - 30px);
+    padding:12px;
     border:none;
-
-    border-radius:40px;
-
-    background:#755235;
-
+    border-radius:30px;
+    background:#7A5A3A;
     color:white;
-
     cursor:pointer;
-
-    transition:.3s;
-
 }
 
 .card button:hover{
-
-    background:#5A3E28;
-
+    background:#5E432A;
 }
 
-/* CONTACTO */
+/* ---------- CONTACTO ---------- */
 
 .contacto{
-
-    background:#EFE3CF;
-
+    background:#EFE3D2;
     text-align:center;
-
 }
 
-.contacto a{
-
+#btnWhatsapp{
     display:inline-block;
-
     margin-top:25px;
-
     background:#25D366;
-
     color:white;
-
-    padding:18px 35px;
-
     text-decoration:none;
-
+    padding:15px 30px;
     border-radius:40px;
-
-    font-weight:bold;
-
 }
 
-/* FOOTER */
+/* ---------- PIE ---------- */
 
 footer{
-
-    background:#E3D2B7;
-
+    background:#E7D8C3;
+    padding:25px;
     text-align:center;
-
-    padding:35px;
-
+    color:#5A4634;
 }
 
-/* CELULAR */
+/* ---------- CELULAR ---------- */
 
 @media(max-width:768px){
 
-.hero{
-
-padding:60px 20px;
-
-}
-
 .hero h1{
-
-font-size:42px;
-
+    font-size:40px;
 }
 
 .logo{
-
-font-size:60px;
-
+    font-size:60px;
 }
 
 .frase{
-
-font-size:18px;
-
-}
-
-section h2{
-
-font-size:32px;
-
+    font-size:18px;
 }
 
 }
