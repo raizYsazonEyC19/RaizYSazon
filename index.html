@@ -1,14 +1,219 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Raíz y Sazón</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raíz y Sazón</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f8f4ec;
+color:#333;
+}
+
+header{
+background:#355E3B;
+color:white;
+padding:35px;
+text-align:center;
+}
+
+header h1{
+font-size:45px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+}
+
+.hero{
+padding:50px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:36px;
+margin-bottom:15px;
+color:#355E3B;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+line-height:1.6;
+}
+
+button{
+background:#355E3B;
+color:white;
+border:none;
+padding:15px 30px;
+font-size:18px;
+border-radius:12px;
+cursor:pointer;
+margin-top:30px;
+transition:.3s;
+}
+
+button:hover{
+background:#2b4b2f;
+}
+
+section{
+padding:40px;
+}
+
+h3{
+text-align:center;
+font-size:32px;
+margin-bottom:30px;
+color:#355E3B;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:12px;
+margin-bottom:15px;
+}
+
+.card h4{
+margin-bottom:10px;
+}
+
+.price{
+font-size:22px;
+font-weight:bold;
+color:#355E3B;
+margin:10px 0;
+}
+
+footer{
+background:#355E3B;
+color:white;
+padding:25px;
+text-align:center;
+margin-top:50px;
+}
+
+</style>
+
 </head>
+
 <body>
+
+<header>
 
 <h1>🌿 Raíz y Sazón</h1>
 
-<p>Bienvenido a nuestro catálogo.</p>
+<p>Especias y Condimentos 100% Naturales</p>
+
+</header>
+
+<div class="hero">
+
+<h2>Sabor que nace de la tierra</h2>
+
+<p>
+
+Bienvenido a nuestro catálogo digital.
+
+Aquí podrás conocer nuestros productos y próximamente realizar tus pedidos directamente desde esta página.
+
+</p>
+
+<button onclick="alert('Muy pronto podrás realizar pedidos por WhatsApp 🌿')">
+
+Ver Catálogo
+
+</button>
+
+</div>
+
+<section>
+
+<h3>Nuestros Productos</h3>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=600">
+
+<h4>Chile Guajillo</h4>
+
+<div class="price">$0.00</div>
+
+<p>Disponible en distintas presentaciones.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600">
+
+<h4>Canela</h4>
+
+<div class="price">$0.00</div>
+
+<p>100% natural.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?w=600">
+
+<h4>Orégano</h4>
+
+<div class="price">$0.00</div>
+
+<p>Ideal para todo tipo de platillos.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Raíz y Sazón
+
+<br><br>
+
+Hecho con ❤️ para nuestros clientes.
+
+</p>
+
+</footer>
 
 </body>
 </html>
