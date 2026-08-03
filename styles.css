@@ -278,3 +278,64 @@ transform:translateY(-3px);
     letter-spacing:.5px;
 
 }
+/* ===== MENÚ ===== */
+
+.navbar{
+
+position:sticky;
+
+top:0;
+
+z-index:1000;
+
+background:#F8F3EA;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:18px 8%;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.logo-nav{
+
+font-size:24px;
+
+color:#5A4634;
+
+font-weight:bold;
+
+}
+
+.navbar ul{
+
+display:flex;
+
+gap:30px;
+
+list-style:none;
+
+}
+
+.navbar a{
+
+text-decoration:none;
+
+color:#5A4634;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.navbar a:hover{
+
+color:#8C6A4A;
+
+}
