@@ -47,9 +47,11 @@ const productos = [
 ];
 
 {
+ {
     nombre: "Pimienta Negra",
     categoria: "Especias",
     descripcion: "Ideal para carnes y salsas.",
     presentacion: "Bolsa de 1 lb",
-    imagen: "https://..."
-},
+    imagen: "https://images.unsplash.com/photo-1506809875891-9d0744a50d8b"
+}
+];  
