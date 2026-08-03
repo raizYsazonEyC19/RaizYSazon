@@ -80,3 +80,24 @@ buscador.addEventListener("input", function(){
 });
 
 mostrarProductos(productos);
+
+botonesCategoria.forEach(boton => {
+
+    boton.addEventListener("click", function () {
+
+        const categoria = this.dataset.categoria;
+
+        if (categoria === "Todos") {
+            mostrarProductos(productos);
+            return;
+        }
+
+        const filtrados = productos.filter(producto =>
+            producto.categoria === categoria
+        );
+
+        mostrarProductos(filtrados);
+
+    });
+
+});
