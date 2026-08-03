@@ -127,13 +127,21 @@ section h2{
 }
 
 .card:hover{
-    transform:translateY(-6px);
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
 }
 
 .card img{
+
     width:100%;
-    height:220px;
+
+    height:260px;
+
     object-fit:cover;
+
 }
 
 .card h3{
@@ -247,5 +255,26 @@ transform:translateY(-3px);
 
 }
 }
+
+}
+.card h3{
+
+    font-size:24px;
+
+    color:#5A4634;
+
+}
+
+.card strong{
+
+    color:#7A5A3A;
+
+}
+
+.card button{
+
+    font-weight:bold;
+
+    letter-spacing:.5px;
 
 }
