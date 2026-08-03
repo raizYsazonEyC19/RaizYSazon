@@ -47,7 +47,6 @@ const productos = [
 ];
 
 {
- {
     nombre: "Pimienta Negra",
     categoria: "Especias",
     descripcion: "Ideal para carnes y salsas.",
