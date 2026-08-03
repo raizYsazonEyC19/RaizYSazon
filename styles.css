@@ -194,6 +194,51 @@ footer{
 
 .frase{
     font-size:18px;
+   /* ===== Categorías ===== */
+
+.categorias{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+margin-bottom:40px;
+
+}
+
+.categoria{
+
+background:white;
+
+border:2px solid #D6C3A5;
+
+padding:12px 22px;
+
+border-radius:40px;
+
+cursor:pointer;
+
+font-size:16px;
+
+transition:.3s;
+
+color:#5A4634;
+
+}
+
+.categoria:hover{
+
+background:#7A5A3A;
+
+color:white;
+
+transform:translateY(-3px);
+
+}
 }
 
 }
